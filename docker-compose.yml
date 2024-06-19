@@ -6,4 +6,4 @@ services:
           - 8080:8080
       volumes:
           - /root/docker/override:/app
-      image: cursor1st/override:latest
+      image: luyh7/override:latest
