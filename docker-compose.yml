@@ -3,7 +3,7 @@ services:
     override:
       container_name: override
       ports:
-          - 8080:8080
+          - 8181:8181
       volumes:
           - /root/docker/override:/app
       image: luyh7/override:latest
